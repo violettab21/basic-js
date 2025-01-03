@@ -28,7 +28,7 @@ function dateSample(sampleActivity) {
   let t = Math.ceil(Math.log(MODERN_ACTIVITY / activity) / k);
   return t;
 }
-console.log(dateSample("-5"));
+
 module.exports = {
   dateSample,
 };

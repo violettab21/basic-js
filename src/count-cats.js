@@ -27,11 +27,7 @@ function countCats(matrix) {
   if (!count) return 0;
   return count;
 }
-console.log(countCats([
-        ['##', 'dd', '00'],
-        ['^^', '..', 'ss'],
-        ['AA', 'dd', 'Oo'],
-      ]));
+
 module.exports = {
   countCats,
 };

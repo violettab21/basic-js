@@ -36,15 +36,7 @@ function repeater(str, options) {
   }
   return arr.join(`${mainSeparator}`);
 }
-console.log(
-  repeater(true, {
-    repeatTimes: 3,
-    separator: "??? ",
-    addition: false,
-    additionRepeatTimes: 2,
-    additionSeparator: "!!!",
-  })
-);
+
 module.exports = {
   repeater,
 };

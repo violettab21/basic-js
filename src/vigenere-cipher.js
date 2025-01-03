@@ -92,13 +92,7 @@ class VigenereCipheringMachine {
     return arr.join("").toUpperCase();
   }
 }
-const directMachine = new VigenereCipheringMachine();
-console.log(directMachine.encrypt("-Q8.|", "kz"));
-console.log(directMachine.decrypt("UWJJW XAGWLNFM VNNNDXHVWWL :)", "jz"));
 
-const reverseMachine = new VigenereCipheringMachine(false);
-console.log(reverseMachine.encrypt("attack at dawn!", "alphonse"));
-console.log(reverseMachine.decrypt("AEIHQX SX DLLU!", "alphonse"));
 module.exports = {
   VigenereCipheringMachine,
 };
